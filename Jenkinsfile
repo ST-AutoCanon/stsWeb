@@ -24,7 +24,7 @@ pipeline {
         stage('Check Code Quality') {
             steps {
                 script {
-                    def codeQuality = sh(script:./gradlew clean build sonarqube , returnStatus: true)
+                    def codeQuality = sh(script: './gradlew clean build sonarqube' , returnStatus: true)
                     
                     if (codeQuality != 0) {
                         echo "Code quality is not good. Sending code quality report via email."
