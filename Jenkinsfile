@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ST-AutoCanon/stsWeb.git'
+               git branch: 'main', git 'https://github.com/ST-AutoCanon/stsWeb.git'
             }
         }
         
