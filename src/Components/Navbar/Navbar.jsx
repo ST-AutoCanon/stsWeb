@@ -4,6 +4,7 @@ import logosu from '../../assets/logosu.jpg'
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
+ 
   return (
     
         <div className="pop">
@@ -130,7 +131,28 @@ const Navbar = () => {
         <li>
           <Link to="/Contact" className='contact'>Contact Us</Link>
         </li>
+        <li>
+          <Link to="/" className='contact' onClick={{toggleMenu}}>Login</Link>
+        </li>
+        <div className="sub-menu-wrap" id='sub-menu'>
+        <div className="sub-menu">
+          <div className="user-info">
+            <img src="asset/img/team-1.jpg" alt="" />
+            <h4>Employee Login</h4>
+          </div>
+          <hr/>
+         <input type="text" placeholder='Enter your email' /><br/>
+         <input type="text" placeholder='Enter your password' /><br/>
+         <a className="btn btn-primary rounded-pill py-3 px-5" href="/">
+              LOGIN
+            </a>
+        </div>
+      </div>
+
       </ul>
+      
+
+     
       <button className="mobile-menu-icon"
       onClick={() => setIsMobile(!isMobile)}
       >
@@ -140,9 +162,13 @@ const Navbar = () => {
        <i className="fas fa-bars"></i>
       )}
       </button>
+  
+    
       
     </nav>
   </header>
+  
+
   <div />
 </div>
 

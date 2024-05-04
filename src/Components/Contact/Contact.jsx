@@ -64,7 +64,9 @@ const Contact = () => {
     />
     </div>
     <div className='mad' style={{marginLeft:250}}>
+      <div className='bad'>
     <button type="submit">Send Message</button>
+    </div>
     </div>
   </form>
   </div>

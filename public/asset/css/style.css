@@ -747,112 +747,15 @@ ul.klr{
  .mobile-menu-icon{
     display: none;
  }
+ .mcq{
+    margin-left: 500px;
+    margin-top: -300px;
+    width: 1000px;
+ }
  
  
-@media screen and (max-width:430px){
-    :root {
-        width: 430px;
-    }
-    .Right{
-        visibility: collapse;
-    }
-    .left{
-       width: 60%;
-       margin-right: -380px;
-    }
-    .bow{
-        margin-top: 500px;
-    }
-    html{
-        width: 100%;
-    }
-    body{
-        width: 100%;
-       
-    }
-    .mkl{
-        margin-left: -30px;
-    }
-   
-    .con{
-        width: 20px;
-    }
-    .sts{
-       margin-left: -75px;
-    }
-    .maxi{
-        margin-left: -250px;
-    }
-    .dk{
-        margin-left: 250px;
-    }
-    .skl{
-       margin-left: -500px;
-        width: 0px;
-    }
-    .jds{
-        width: 430px;
-    }
-    .mrp{
-        margin-left: -400px;
-    }
-    .faf{
-        margin-left: -0px;   
-        
-    }
-    .kan{
-      margin-left: -250px;
-    }
-    .bjp{
-        margin-left: -340px;
-    }
-    
-   
-    
-}
-@media screen and (max-width:430px){
-    .nav-links{
-        display: none;
-    }
-    .nav-links-mobile{
-        position: absolute;
-        display: block;
-        list-style: none;
-        background-color: #0d3353;
-        left: 0;
-        top:75px;
-        transition: all 0.5s ease-out;
-        width: 100%;
-    }
-    .home,
-    .about,
-    .services,
-    .product,
-    .contact{
-        color: white;
-        text-align: center;
-        padding: 32px;
-        width: 100%;
-        transition: all 0.5s ease;
-    }
-    .mobile-menu-icon{
-        display: block;
-        position: absolute;
-        font-size: 30px;
-        color: white;
-        background-color: #0d3353;
-        border: none;
-        outline: none;
-        top: 15px;
-        right: 25px;
-    }
-    .header{
-        width: 410px;
-    }
-    
-   
-    
-}
+
+
 .wrapper{
     width: 100%;
     display: flex;
@@ -976,9 +879,186 @@ ul.klr{
     justify-content: center;
     margin-left: 100px;
 }
+.user-pic{
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -80px;
+    margin-left: 700px;
+}
+.sub-menu-wrap{
+    position: absolute;
+    top: 100%;
+    right: 10%;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.5s;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+}
+.sub-menu{
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+}
+.user-info h4{
+    font-weight: 500;
+}
+.user-info img{
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.sub-menu hr{
+    border: 0;
+    height: 1px;
+    width: 100%;
+    background: #ccc;
+    margin: 15px 0 10px;
+}
 @media (max-width:800px){
     .contact-inputs{
         width: 80vw;
     }
     
+}
+
+
+@media screen and (max-width:780px){
+   
+    .mobile-menu-icon{
+        display: block;
+        position: absolute;
+        font-size: 30px;
+        color: white;
+        background-color: #0d3353;
+        border: none;
+        outline: none;
+        top: 15px;
+        right: 25px;
+    }
+    .home,
+    .about,
+    .services,
+    .product,
+    .contact{
+        color: white;
+        text-align: center;
+        padding: 32px;
+        width: 100%;
+        transition: all 0.5s ease;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links-mobile{
+        position: absolute;
+        display: block;
+        list-style: none;
+        background-color: #0d3353;
+        left: 0;
+        top:75px;
+        transition: all 0.5s ease-out;
+        width: 100%;
+    }
+    .header{
+        position: absolute; 
+    }
+    .Right{
+        display: none;
+    }
+   
+    .bow{
+        margin-top: 500px;
+    }
+    .mkl{
+        margin-left: 30%;
+    }
+    .skl{
+        display: none;
+    }
+    .bjp{
+        margin-left: -35%;
+    }
+    .kan{
+        position: relative;
+    }
+    .maxi{
+        margin-left: 5%;
+    }
+}
+
+@media screen and (max-width:430px){
+    .header{
+       width: 430px;
+    }
+    .left{
+      position: relative;
+     
+    }
+    .bjp{
+        margin-left: -95%;
+    }
+    .mrp{
+        margin-left: -90%;
+    }
+    .kus{
+        margin-left: -20%;
+    }
+    .bus{
+        margin-left: -20%;
+    }
+    .bad{
+        margin-left: -30%;
+       
+    }
+    .faf{
+       display: none;
+    }
+    .maxi{
+        display: none;
+    }
+    html{
+        position: relative;
+    }
+   .mbp {
+    margin-left: -400px;
+   }
+   .bsy{
+    margin-left: -400px;
+   }
+   .brp{
+    margin-left: -400px;
+   }
+   .byv{
+    margin-left: -150px;
+   }
+   .jig{
+    margin-left: -450px;
+   }
+   .pani{
+    display: none;
+   }
+   .jk{
+    display: none;
+   }
+   .jcb{
+    display: none;
+   }
+   .bjp{
+    display: none;
+   }
+   .pt{
+    margin-left: -200px;
+   }
+    *{
+    margin: 0;
+    padding: 0;
+}
 }
