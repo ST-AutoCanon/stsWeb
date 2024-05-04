@@ -973,9 +973,7 @@ ul.klr{
     .Right{
         display: none;
     }
-    .left{
-      
-    }
+   
     .bow{
         margin-top: 500px;
     }
@@ -1029,10 +1027,36 @@ ul.klr{
     html{
         position: relative;
     }
-    body{
-       border: 5px dashed red;
-       
-    }
+   .mbp {
+    margin-left: -400px;
+   }
+   .bsy{
+    margin-left: -400px;
+   }
+   .brp{
+    margin-left: -400px;
+   }
+   .byv{
+    margin-left: -150px;
+   }
+   .jig{
+    margin-left: -450px;
+   }
+   .pani{
+    display: none;
+   }
+   .jk{
+    display: none;
+   }
+   .jcb{
+    display: none;
+   }
+   .bjp{
+    display: none;
+   }
+   .pt{
+    margin-left: -200px;
+   }
     *{
     margin: 0;
     padding: 0;

@@ -4,6 +4,7 @@ import logosu from '../../assets/logosu.jpg'
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
+ 
   return (
     
         <div className="pop">

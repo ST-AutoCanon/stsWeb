@@ -350,21 +350,27 @@ const Home = () => {
         data-wow-delay="0.1s"
       >
         <div className="testimonial-item bg-light rounded p-4" style={{backgroundColor:'skyblue'}}>
+          <div className='byv'>
         <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:170}}>
           Engineering & Software Services by SukalpaTech
-        </h4>
+        </h4></div>
+
         <p>The name of our organization was invented with a purpose to keep our vision focused "Let us join to support your deserve". Sukalpa is Sanskrit word & it stands for Highly skilled and Knowledge. So SukalpaTech abide to its meaning by utilizing advance technologies & well qualified experienced staff.Experienced Team</p>
+        <div className='mbp'>
         <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:420}}>
           Leader
         </h4>
+        </div>
         <p>SukalpaTech supports its customers R&D and digital strategies.We contribute to develop innovative products & services, & enabling business to optimize their organization,tools & process.In short time,we have establishing a strong partnership with some prestigious institutions across the country & we will continue to hire top notch talent from these institutions.</p>
 
           <div className="d-flex align-items-center mb-4">
             
             <div className="ms-4">
+              <div className='bsy'>
             <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:400}}>
           VISION
         </h4>
+        </div>
               <span />
             </div>
           </div>
@@ -379,9 +385,11 @@ const Home = () => {
         <div className="testimonial-item bg-light rounded p-4">
           <div className="d-flex align-items-center mb-4">
             <div className="ms-4">
+              <div className='brp'>
             <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:390}}>
           MASSION
         </h4>
+        </div>
               <span />
             </div>
           </div>

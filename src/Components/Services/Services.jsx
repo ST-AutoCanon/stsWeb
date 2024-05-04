@@ -55,6 +55,7 @@ const Services = () => {
               <li>Prototyping</li>
               <li>Value Engineering</li>
              </ul>
+             <div className='pani'>
              <ul style={{marginLeft:300,marginTop:-115}}>
              <li>Reverse Enginerring</li>
               <li>E-Mobility Solutions</li>
@@ -62,6 +63,7 @@ const Services = () => {
               <li>2D & 3D Drafting</li>
              
              </ul>
+             </div>
              <a className="btn btn-primary rounded-pill py-3 px-5" href="/Enginerring">
               Learn More
             </a>
