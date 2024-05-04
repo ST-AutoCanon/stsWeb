@@ -176,7 +176,7 @@ const Home = () => {
             <h4 className="mb-0">Engineering Services</h4>
             <div className='content'>
               <h1>Services</h1>
-             <ul>
+             <ul >
               <li>Prototyping</li>
               <li >CAE Analysis</li>
               <li>Product Design</li>
@@ -333,6 +333,7 @@ const Home = () => {
   {/* Team Start */}
   {/* Team End */}
   {/* Testimonial Start */}
+ 
   <div className="container-xxl py-5" style={{backgroundColor:'skyblue'}}>
     <div className="container">
       <div
@@ -341,9 +342,7 @@ const Home = () => {
         style={{ maxWidth: 600 }}
       >
         <b>
-          <h4 className="section-title bg-white text-center text-primary px-3">
-            VISION &amp; MISSION
-          </h4>
+        
         </b>
       </div>
       <div
@@ -351,9 +350,21 @@ const Home = () => {
         data-wow-delay="0.1s"
       >
         <div className="testimonial-item bg-light rounded p-4" style={{backgroundColor:'skyblue'}}>
+        <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:170}}>
+          Engineering & Software Services by SukalpaTech
+        </h4>
+        <p>The name of our organization was invented with a purpose to keep our vision focused "Let us join to support your deserve". Sukalpa is Sanskrit word & it stands for Highly skilled and Knowledge. So SukalpaTech abide to its meaning by utilizing advance technologies & well qualified experienced staff.Experienced Team</p>
+        <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:420}}>
+          Leader
+        </h4>
+        <p>SukalpaTech supports its customers R&D and digital strategies.We contribute to develop innovative products & services, & enabling business to optimize their organization,tools & process.In short time,we have establishing a strong partnership with some prestigious institutions across the country & we will continue to hire top notch talent from these institutions.</p>
+
           <div className="d-flex align-items-center mb-4">
+            
             <div className="ms-4">
-              <h4 className="mb-1">VISION</h4>
+            <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:400}}>
+          VISION
+        </h4>
               <span />
             </div>
           </div>
@@ -368,7 +379,9 @@ const Home = () => {
         <div className="testimonial-item bg-light rounded p-4">
           <div className="d-flex align-items-center mb-4">
             <div className="ms-4">
-              <h4 className="mb-1"  >MISSION</h4>
+            <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:390}}>
+          MASSION
+        </h4>
               <span />
             </div>
           </div>
@@ -378,6 +391,7 @@ const Home = () => {
               technological developments &amp; modernization that becomes vital
               to stay ahead of their competition at reasonable cost.
             </p>
+            
           
         </div>
       </div>

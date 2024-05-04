@@ -115,7 +115,8 @@ const About = () => {
     <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:400,marginTop:50}}>
           MAJOR SERVICES PROVIDED AS FALLOWS
         </h4>
-        <div className='pop' style={{marginLeft:500}}>
+        <div className='pop' style={{marginLeft:750}}>
+          <h5>NON-IT SERVICES</h5>
         <ul>
           <li>Styling</li>
           <li>Product Design & Development</li>
@@ -123,17 +124,32 @@ const About = () => {
           <li>Prototyping</li>
           <li>Tooling,jigs & Fixture Design & Development</li>
           <li>Sourcing Support</li>
-          <li>Homologation</li>
+         
           <li>Export Homologation</li>
           <li>Plant layout</li>
-          <li>IT Related Projects</li>
+          
 
         </ul>
         </div>
+        <div className='jcb' style={{marginTop:-230,marginLeft:370}}>
+          <h5>IT SERVICES</h5>
+          <ul>
+          <li>Software Development</li>
+              <li>Application Development</li>
+              <li>Website Design & Development</li>
+              <li>Maintance & Enahancement</li>
+              <li>Campus & Wireless Networking</li>
+              <li>cloud solutions</li>
+              <li>IT Consulting</li>
+              <li>Testing & QA</li>
+          </ul>
         </div>
-    <h4 className="section-title bg-white text-center text-primary px-3" style={{marginTop:50}}>
+        </div>
+       
+    <h4 className="section-title bg-white text-center text-primary px-3" style={{marginTop:50,marginLeft:500}}>
           MAJOR PROJECTS EXECUTED
         </h4>
+        <div className='bihe' style={{marginLeft:250}}>
         <ul>
         <b><li>Tricycle</li></b>
           <p>Product design & development & CAE Analysis</p>
@@ -148,6 +164,7 @@ const About = () => {
          
          
         </ul>
+        </div>
      
   </>
   
