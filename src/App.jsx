@@ -8,6 +8,17 @@ import Services from './Components/Services/Services'
 import Product from './Components/Product/Product'
 import Contact from './Components/Contact/Contact'
 import Enginerring from './Components/Enginerring/Enginerring'
+import IT from './Components/IT/IT'
+import Others from './Components/Others/Others'
+import Cons from './Components/Cons/Cons'
+import Homo from './Components/Homo/Homo'
+import Non from './Components/Non/Non'
+import LOG from './Components/LOG/LOG'
+
+
+
+
+
 
 const App = () => {
   return (
@@ -20,6 +31,12 @@ const App = () => {
       <Route path="/Product" element={<Product/>}/>
       <Route path="/Contact" element={<Contact/>}/>
       <Route path='/Enginerring' element={<Enginerring/>}/>
+      <Route path='/IT' element={<IT/>}/>
+      <Route path='/Others' element={<Others/>}/>
+      <Route path='/Cons' element={<Cons/>}/>
+      <Route path='/Homo' element={<Homo/>}/>
+      <Route path='/Non' element={<Non/>}/>
+      <Route path='/LOG' element={<LOG/>}/>
      </Routes>
      <Footer/>
      

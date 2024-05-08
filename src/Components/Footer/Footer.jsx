@@ -32,7 +32,7 @@ const Footer = () => {
             <i className="fa fa-envelope me-3" />
             info@sukalpatech.com
           </p>
-        </div>
+        
           
         <div className="d-flex pt-2">
             <a
@@ -60,6 +60,7 @@ const Footer = () => {
               <i className="fab fa-linkedin-in" />
             </a>
           </div>
+        </div>
         </div>
        
         <div className="col-lg-3 col-md-6" style={{ marginLeft: 80 }}>
