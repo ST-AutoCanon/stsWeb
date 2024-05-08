@@ -30,7 +30,7 @@ const Enginerring = () => {
               <li>2D & 3D Drafting</li>
               <li>Homologation/Type Approval</li>
               <li>Finite Element Analysis</li>
-              <img src="asset/img/engserv.png" alt="" style={{height:250,width:300,marginLeft:400,marginTop:-250}}/>
+              <img src="asset/img/end.jpg" alt="" style={{height:250,width:300,marginLeft:400,marginTop:-250}}/>
              </ul>
              
             
