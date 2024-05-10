@@ -20,14 +20,13 @@ const LOG = () => {
       
     </div>
   </div>
-  <div className='dop'>
         <div  className='cover'>
         <h1>Employee Login</h1>
         <input type='text' placeholder='Your Email'/>
         <input type='password' placeholder='Your Password'/>
 
         <div className="login-btn" onClick={popup}>Login</div>
-    </div>
+    
         <div className={popupStyle}>
         <h1>Login Failed</h1>
         <p>Username or password incorrect</p>

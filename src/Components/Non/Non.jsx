@@ -18,9 +18,11 @@ const Non = () => {
       </div>
       
     </div>
+    <div className="qog">
     <h4 className="section-title bg-white text-start text-primary pe-3" style={{marginTop:20,marginLeft:500}}>
                 Non-IT Services
               </h4>
+              </div>
               <h1>Update Soon</h1>
     </div>
   )
