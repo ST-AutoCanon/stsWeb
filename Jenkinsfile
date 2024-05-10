@@ -1,53 +1,42 @@
 pipeline {
     agent any
-    
-    environment {
-        SONARQUBE_SERVER = 'http://103.104.231.205:9000/'
-        EMAIL_TO = 'prajwalyavalker83320@gmail.com'
-    }
-    
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/ST-AutoCanon/stsWeb.git'
+                checkout scm
             }
         }
-        
-        stage('SonarQube Scan') {
+        stage('SonarQube Analysis') {
             steps {
-                withSonarQubeEnv(SONARQUBE_SERVER) {
-                    sh 'mvn clean package sonar:sonar'
+                withSonarQubeEnv('SonarQubeServer') {
+                    sh 'mvn clean verify sonar:sonar'
                 }
             }
         }
         
-        stage('Check Code Quality') {
+    stages {
+        stage('Build') {
             steps {
-                script {
-                    def codeQuality = sh(script: './gradlew clean build sonarqube' , returnStatus: true)
-                    
-                    if (codeQuality != 0) {
-                        echo "Code quality is not good. Sending code quality report via email."
-                        emailext body: "SonarQube report attached.", subject: "Code Quality Report", to: EMAIL_TO, attachmentsPattern: '**/target/sonar/report-task.txt'
-                        currentBuild.result = 'FAILURE'
-                        error "Code quality is not good."
-                    }
-                }
+                // Build your application (e.g., compile code, create artifacts)
+                sh 'npm install' // Install dependencies
+                sh 'npm run build' // Build your frontend (if applicable)
+                sh 'mvn clean package' // Build your backend (Java, etc.)
             }
         }
+            stage('Deploy to NGINX') {
+    steps {
+        // Assuming NGINX is running locally on your VM
+        sh 'sudo cp -r target/* /path/to/nginx/html' // Copy artifacts
+        sh 'sudo systemctl reload nginx' // Restart NGINX
+    }
+}
+
         
-        stage('Build and Deploy') {
-            steps {
-                script {
-                    echo "Code quality is good. Building and deploying..."
-                    // Add commands to build and deploy your application
-                       sudo npm install 
-                       sudo npm run build
-                    sh 'mvn clean package'
-                    sh 'scp -r target/* ubuntu@103.104.231.205: root /home/ubuntu/git/stsWeb'
-                    sh 'ssh ubuntu@103.104.231.205 "sudo systemctl restart nginx"'
-                }
-            }
-        }
+        post {
+    always {
+        emailext body: 'Code quality report attached.', subject: 'Code Quality Report', to: 'prajwalyavalker83320@gmail.com'
+    }
+}
+
     }
 }
