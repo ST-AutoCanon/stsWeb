@@ -95,7 +95,7 @@ const Services = () => {
               <li>Website Design & Development</li>
               <li>Maintance & Enahancement</li>
               </ul>
-              <ul style={{marginLeft:300,marginTop:-115}}>
+              <ul className='wmi' style={{marginLeft:300,marginTop:-115}}>
               <li>Campus & Wireless</li>
               <li>cloud solutions</li>
               <li>IT Consulting</li>
@@ -134,7 +134,7 @@ const Services = () => {
               <li>Supply Chain Management</li>
               <li>Product Performance Testing</li>
               </ul>
-              <ul style={{marginLeft:300,marginTop:-142}}>
+              <ul className='imw' style={{marginLeft:300,marginTop:-142}}>
               <li>Component Life Testing</li>
               <li>Staffing Solutions</li>
               <li>Training & Development</li>
@@ -165,6 +165,7 @@ const Services = () => {
               <h4 className="section-title bg-white text-start text-primary pe-3" style={{marginTop:40}}>
                 Consulting Services
               </h4>
+              <p>Consulting is defined as the practise of providing a third party with expertise on a matter in exchange for a fee. The service may involve either advisory or implementation services. For the consultant, taking an independent and unbiased stance on an issue is central to his role.</p>
              <ul>
               <li>Product design & development</li>
               <li>CAE Analysis</li>
@@ -172,7 +173,7 @@ const Services = () => {
               <li>Value Engineering</li>
               <li>Reverse Enginerring</li>
               </ul>
-              <ul style={{marginLeft:300,marginTop:-142}}>
+              <ul className='lmi' style={{marginLeft:300,marginTop:-142}}>
               <li>E-Mobility Solutions</li>
               <li>Tooling,jigs & Fixture</li>
               <li>2D & 3D Drafting</li>
@@ -202,6 +203,11 @@ const Services = () => {
               <h4 className="section-title bg-white text-start text-primary pe-3" style={{marginTop:40}}>
                 Homologation Support
               </h4>
+              <p>Our commitment doesn't end with obtaining
+                 homologation. We provide on-going support to address any post-homologation
+                 challenges, such as regulatory updates, compliance maintenance, and market
+                 surveillance, helping you navigate the complexities of regulatory compliance over the
+                 product lifecycle.</p>
              <ul>
               <li>Type Approval</li>
               <li>FAME Subsidy Support</li>
@@ -209,7 +215,7 @@ const Services = () => {
               <li>WMI REgistration</li>
               <li>Plant Accerditation</li>
               </ul>
-              <ul style={{marginLeft:300,marginTop:-142}}>
+              <ul className='smi' style={{marginLeft:300,marginTop:-142}}>
               <li>Training & DEvelopment</li>
               <li>Recruitmnet Services</li>
               <li>Udyam Registartion</li>
@@ -244,7 +250,7 @@ const Services = () => {
               <li>E-Mobility</li>
               <li>Construction Equipment</li>
               </ul>
-              <ul style={{marginLeft:300,marginTop:-88}}>
+              <ul className='dmi' style={{marginLeft:300,marginTop:-88}}>
               <li>Agricultural Equipment</li>
               <li>Industrial Equipment</li>
               <li>Machinery</li>

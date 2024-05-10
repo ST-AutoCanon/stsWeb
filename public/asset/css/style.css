@@ -996,7 +996,7 @@ ul.klr{
 
 @media screen and (max-width:430px){
     .header{
-       width: 430px;
+       width: auto;
     }
     .left{
       display: none;
@@ -1070,6 +1070,40 @@ ul.klr{
     overflow: hidden;
 }
 .sts{
+    display: none;
+}
+.wmi{
+    display: none;
+}
+.imw{
+    display: none;
+}
+.lmi{
+    display: none;
+}
+.smi{
+    display: none;
+}
+.dmi{
+    display: none;
+}
+.qoq{
+    margin-left: -500px;
+}
+.qog{
+    margin-left: -450px;
+}
+.dsp{
+    display: none;
+}
+.jkp{
+    display: none;
+   
+}
+.lka{
+    display: none;
+}
+.pmk{
     display: none;
 }
 }

@@ -15,9 +15,11 @@ const Enginerring = () => {
       </div>
     </div>
       <div className="h-100">
+        <div className="qoq">
               <h4 className="section-title bg-white text-start text-primary pe-3" style={{marginTop:20,marginLeft:500}}>
                 Enginerring services
               </h4>
+              </div>
               <p>Our extensive portofolio with enginerring services demonstrates our commitments to completing enginerring projects throughly on hehalf of organization across multiple enginerring segments.we work alongside clients to execute projects of any size and provide superior results within the timeframe specified.</p>
               <ul style={{marginLeft:200}}>
               <li>Product design & development</li>
@@ -30,22 +32,26 @@ const Enginerring = () => {
               <li>2D & 3D Drafting</li>
               <li>Homologation/Type Approval</li>
               <li>Finite Element Analysis</li>
-              <img src="asset/img/end.jpg" alt="" style={{height:250,width:300,marginLeft:400,marginTop:-250}}/>
+              <img src="asset/img/end.jpg" alt="" className='dsp' style={{height:250,width:300,marginLeft:400,marginTop:-250}}/>
              </ul>
              
             
             
             
             </div>
+            <div className="qoq">
             <h4 className="section-title bg-white text-start text-primary pe-3" style={{marginTop:20,marginLeft:500}}>
                 Product design & development
               </h4>
+              </div>
               <p>Well-crafted product design requires precision,planning,skill,and execution.
                 Our product design & development services supplement our clients core design teams,allowing them to increase productivity and accelerate innovation.
               </p>
+              <div className="qoq">
               <h4 className="section-title bg-white text-start text-primary pe-3" style={{marginTop:20,marginLeft:500}}>
                 E-Mobility Solutions
               </h4>
+              </div>
               <p>Our experts collaborate with battery suppliers, fuel cell system providers, vehicle
                  manufacturers and infrastructure developers to ensure compliance with international
                  standards and flawless interoperability of products.<br/>

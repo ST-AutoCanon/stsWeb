@@ -132,7 +132,7 @@ const Navbar = () => {
           <Link to="/Contact" className='contact'>Contact Us</Link>
         </li>
         <li>
-          <Link to="/LOG" className='contact'>LOGIN</Link>
+          <Link to="/" className='contact'>LOGIN</Link>
         </li>
         
        
