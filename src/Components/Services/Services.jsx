@@ -39,7 +39,7 @@ const Services = () => {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="img-border">
               <div className='jds'>
-              <img className="img-fluid" src="asset/img/engser.jpg" alt="" />
+              <img className="img-fluid" src="asset/img/engk.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Services = () => {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="img-border">
               <div className='jds'>
-              <img className="img-fluid" src="asset/img/itnetd.jpg" alt="" />
+              <img className="img-fluid" src="asset/img/itnelp.png" alt="" />
               </div>
             </div>
           </div>
@@ -117,7 +117,7 @@ const Services = () => {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="img-border">
               <div className='jds'>
-              <img className="img-fluid" src="asset/img/conso.jpg" alt="" />
+              <img className="img-fluid" src="asset/img/otherp.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -156,7 +156,7 @@ const Services = () => {
           <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
             <div className="img-border">
               <div className='jds'>
-              <img className="img-fluid" src="asset/img/consq.jpg" alt="" />
+              <img className="img-fluid" src="asset/img/conskk.jpg" alt="" />
               </div>
             </div>
           </div>
@@ -230,40 +230,7 @@ const Services = () => {
         </div>
       </div>
     </div>
-    <div className="container-xxl py-5" style={{marginTop:-50}}>
-      <div className="container">
-        <div className="row g-5">
-          <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div className="img-border">
-              <div className='jds'>
-              <img className="img-fluid" src="asset/img/nond.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-            <div className="h-100">
-              <h4 className="section-title bg-white text-start text-primary pe-3" style={{marginTop:40}}>
-                Non-IT Services
-              </h4>
-             <ul>
-              <li>Automotive</li>
-              <li>E-Mobility</li>
-              <li>Construction Equipment</li>
-              </ul>
-              <ul className='dmi' style={{marginLeft:300,marginTop:-88}}>
-              <li>Agricultural Equipment</li>
-              <li>Industrial Equipment</li>
-              <li>Machinery</li>
-              </ul>
-              <a className="btn btn-primary rounded-pill py-3 px-5" href="/Non" style={{marginTop:20}}>
-              Learn More
-            </a>
-            
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+   
   
   </>
   

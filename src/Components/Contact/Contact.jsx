@@ -27,7 +27,9 @@ const Contact = () => {
     <h4 className="section-title bg-white text-center text-primary px-3" style={{marginLeft:400 }}>
           CONTACT US
         </h4>
+        <div className="szs">
     <h4 style={{marginLeft:205,marginTop:30}}>If You Have Any Query,Please Feel Free Contact Us</h4>
+    </div>
     </div>
     
     </div>

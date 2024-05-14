@@ -131,9 +131,7 @@ const Navbar = () => {
         <li>
           <Link to="/Contact" className='contact'>Contact Us</Link>
         </li>
-        <li>
-          <Link to="/" className='contact'>LOGIN</Link>
-        </li>
+       
         
        
       </ul>
