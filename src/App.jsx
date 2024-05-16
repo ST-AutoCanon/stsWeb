@@ -13,6 +13,7 @@ import Others from './Components/Others/Others'
 import Cons from './Components/Cons/Cons'
 import Homo from './Components/Homo/Homo'
 import Non from './Components/Non/Non'
+import LOG from './Components/LOG/LOG'
 
 
 
@@ -36,6 +37,7 @@ const App = () => {
       <Route path='/Cons' element={<Cons/>}/>
       <Route path='/Homo' element={<Homo/>}/>
       <Route path='/Non' element={<Non/>}/>
+      <Route path='/LOG' element={<LOG/>}/>
      </Routes>
      <Footer/>
      
